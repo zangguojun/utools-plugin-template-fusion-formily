@@ -9,9 +9,9 @@ export default defineConfig({
       {
         // this is required for the SCSS modules
         find: /^~(.*)$/,
-        replacement: '$1',
-      },
-    ],
+        replacement: '$1'
+      }
+    ]
   },
   plugins: [
     react(),
